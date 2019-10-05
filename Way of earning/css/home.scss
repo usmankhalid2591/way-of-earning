@@ -1,0 +1,36 @@
+/**********************************
+                Home
+**********************************/
+
+.home {
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas:
+      "top"
+      "content"
+      "footer";
+      height: 100vh;
+  }
+  
+  .home__top {
+    grid-area: top;
+    padding: 30px;
+  }
+  
+  .home__middle {
+    grid-area: content;
+    position: relative;
+    text-align: center;
+  }
+  
+  .home__middle__content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  

@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-template-rows: 100px auto auto;
+  grid-template-areas:
+    "top"
+    "main"
+    "footer";
+  height: 100vh;
+}
+
+.packages__top {
+  grid-area: top;
+  padding: 30px;
+}
+
+.hamburger-top {
+  color: black;
+}
+
+.packages__content {
+  grid-area: main;
+}
+
+.cards-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.grid--card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-body *{
+    margin-top: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #586c7f;
+}
