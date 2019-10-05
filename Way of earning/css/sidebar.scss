@@ -1,0 +1,34 @@
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -300px;
+    background-color: #eeeeee;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidebar__inner{
+    padding: 20px;
+}
+
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__links{
+    margin-top: 30px;
+}
+
+.sidebar__links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0f70b7;
+    display: block;
+    transition: 0.3s;
+    padding: 10px 0px;
+}

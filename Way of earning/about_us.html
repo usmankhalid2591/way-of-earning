@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9c7309bfe2.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Home Style Sheet -->
+    <link rel="stylesheet" href="css/about_us.css">
+    <!-- Side Bar -->
+    <link rel="stylesheet" href="css/sidebar.css">
+    <title>About - Way of Earning</title>
+</head>
+
+<body>
+
+    <div class="sidebar" id="mySidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__top">
+                <a href="javascript:void(0)">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <img src="icons/close.svg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div class="sidebar__links">
+                    <a href="index.html">Home</a>
+                    <a href="about_us.html">About Us</a>
+                    <a href="packages.html">Packages</a>
+                    <a href="#" data-toggle="modal" data-target="#myModalLogin">Login</a>
+                    <a href="#" data-toggle="modal" data-target="#myModalRegister">Register</a>
+                    <a href="#" data-toggle="modal" data-target="#myModalContact">Contact Us</a>
+                </div>
+        </div>
+    </div>
+    <div class="about__top">
+        <div class="container">
+            <a href="javascript:void(0);" onclick="openNav()">
+                <i class="fas fa-bars hamburger-top"></i>
+            </a>
+        </div>
+    </div>
+    <div class="about__content">
+        <div class="container">
+            <div class="page-heading text-center">
+                About Us
+            </div>
+
+            <div class="row mtb align-items-center">
+                <div class="col-6">
+                    <div class="page-subheading">Lorem ipsum dolor</div>
+                    <div class="page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, earum
+                        expedita mollitia natus nemo necessitatibus quo accusamus beatae nesciunt explicabo quia est
+                        aliquam officia vero sequi! Esse eaque quos odit. ipsum dolor sit amet consectetur adipisicing
+                        elit. Error, sequi reiciendis eligendi aspernatur nam eos pariatur, ullam illo dolorum nisi
+                        doloribus quas quaerat mollitia quidem, consequatur temporibus hic. Deserunt, minus.</div>
+                </div>
+                <div class="col-5 offset-1">
+                    <img src="img/about-us-image.png" class="ml-auto" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container mtb footer__inner">
+            <div class="row">
+                <div class="col-6 footer__left">
+                    <img src="img/logo.svg" alt="">
+                    <p class="page-text mt-4">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd
+                    </p>
+                </div>
+                <div class="col-3 offset-3 footer__right">
+                    <h1 class="little-heading">Help & Support</h1>
+                    <ul class="footer__links mt-4">
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModalContact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="footer__bottom__content">
+                <p>Way of Earning &copy;</p>
+                <div>
+                    <a href="#">
+                        <img src="icons/facebook.svg" alt="">
+                    </a>
+                    <a href="#" class="pl-5">
+                        <img src="icons/twitter.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    	<!-- Modals -->
+
+	<!-- Login Modal -->
+	<div class="modal fade" id="myModalLogin" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <img src="icons/close.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h1 class="page-heading text-white">
+                            LOGIN
+                        </h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary button--large">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Signup Modal -->
+        <div class="modal fade" id="myModalRegister" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <img src="icons/close.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h1 class="page-heading text-white">
+                            Register
+                        </h1>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                    </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary button--large">Submit</button>
+                            <p class="m-0">Or</p>
+                            <button type="submit" class="btn btn-primary button--large--google"><img src="icons/google.svg" alt=""> Sign up using google</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- Contact Modal -->
+                <div class="modal fade" id="myModalContact" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <img src="icons/close.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <h1 class="page-heading text-white">
+                                        Contact Us
+                                    </h1>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                              </div>
+                                        <button type="submit" class="btn btn-primary button--large">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+
+</html>

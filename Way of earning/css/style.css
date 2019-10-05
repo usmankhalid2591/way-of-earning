@@ -1,0 +1,203 @@
+/**********************************
+                Fonts
+**********************************/
+@font-face {
+  font-family: mThin;
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: mExtraLight;
+  src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: mlight;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: mRegular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: mMedium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: mSemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: mBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: mExtraBold;
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: mBlack;
+  src: url(../fonts/Montserrat-Black.ttf);
+}
+
+/**********************************
+                Typography
+**********************************/
+.hero-heading {
+  font-size: 64px;
+  font-family: mSemiBold;
+}
+
+.page-heading {
+  font-size: 48px;
+  font-family: mSemiBold;
+  color: #0F70B7;
+}
+
+.page-subheading {
+  font-size: 36px;
+  color: #0F70B7;
+}
+
+.little-heading {
+  font-size: 24px;
+  color: #fff;
+}
+
+.page-text {
+  font-size: 18px;
+  color: #000;
+}
+
+/**********************************
+                Logo
+**********************************/
+.logo {
+  width: 100px;
+}
+
+/**********************************
+                Buttons
+**********************************/
+.button--large {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#65b89e), to(#0570b7));
+  background-image: linear-gradient(to bottom, #65b89e 0%, #0570b7 100%);
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.button--large--google {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#65b89e), to(#0570b7));
+  background-image: linear-gradient(to bottom, #65b89e 0%, #0570b7 100%);
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.button--small {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#65b89e), to(#0570b7));
+  background-image: linear-gradient(to bottom, #65b89e 0%, #0570b7 100%);
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+/**********************************
+                Generic
+**********************************/
+.mtb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+span {
+  color: #0570b7;
+}
+
+.hamburger-top {
+  font-size: 35px;
+}
+
+.home-bg {
+  background-image: url(../img/hero-image.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__left p {
+  color: #fff;
+}
+
+.footer__right h1 {
+  height: 38px;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer__links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__bottom__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-content {
+  background-color: #586C7F;
+  border-radius: 20px;
+}
+
+.modal-header {
+  border: none;
+}
+
+/**********************************
+                Styling
+**********************************/
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: mRegular;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

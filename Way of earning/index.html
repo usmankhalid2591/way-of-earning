@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/9c7309bfe2.js" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Home Style Sheet -->
+	<link rel="stylesheet" href="css/home.css">
+	<!-- Side Bar -->
+	<link rel="stylesheet" href="css/sidebar.css">
+	<title>Way of Earning</title>
+</head>
+
+<body>
+	<div class="home home-bg">
+		<div class="sidebar" id="mySidebar">
+			<div class="sidebar__inner">
+				<div class="sidebar__top">
+					<a href="javascript:void(0)">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+						<img src="icons/close.svg" alt="">
+					</a>
+				</div>
+				<hr>
+				<div class="sidebar__links">
+						<a href="index.html">Home</a>
+						<a href="about_us.html">About Us</a>
+						<a href="packages.html">Packages</a>
+						<a href="#" data-toggle="modal" data-target="#myModalLogin">Login</a>
+						<a href="#" data-toggle="modal" data-target="#myModalRegister">Register</a>
+						<a href="#" data-toggle="modal" data-target="#myModalContact">Contact Us</a>
+					</div>
+			</div>
+		</div>
+		<div class="home__top">
+			<div class="container">
+				<a href="javascript:void(0);" onclick="openNav()">
+					<i class="fas fa-bars hamburger-top text-white"></i>
+				</a>
+			</div>
+		</div>
+		<div class="home__middle">
+			<div class="home__middle__content">
+				<img src="img/logo.svg" alt="" class="logo">
+				<h1 class="hero-heading">
+					Way of <span>Earning</span>
+				</h1>
+				<p class="page-text text-white">
+					Lorem ipsum, quae dicta facere accusantium.A odio eaque qui vel, rerum modi recusandae! Veniam
+					atque
+					aliquam molestiae dolorum eveniet vel eius perspiciatis modi.
+				</p>
+				<div>
+					<a class="btn btn-primary button--large" type="button" data-toggle="modal"
+						data-target="#myModalLogin">LOG IN</a>
+					<a class="btn btn-primary button--large" type="button" data-toggle="modal"
+						data-target="#myModalRegister">SIGN UP</a>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__bottom__content">
+					<p>Way of Earning &copy;</p>
+					<div>
+						<a href="#">
+							<img src="icons/facebook.svg" alt="">
+						</a>
+						<a href="#" class="pl-5">
+							<img src="icons/twitter.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Modals -->
+
+	<!-- Login Modal -->
+	<div class="modal fade" id="myModalLogin" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<img src="icons/close.svg" alt="">
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h1 class="page-heading text-white">
+						LOGIN
+					</h1>
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Remember Me</label>
+						</div>
+						<button type="submit" class="btn btn-primary button--large">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Signup Modal -->
+	<div class="modal fade" id="myModalRegister" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<img src="icons/close.svg" alt="">
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<h1 class="page-heading text-white">
+						Register
+					</h1>
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-group">
+								<label for="exampleInputPassword1">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1"
+									placeholder="Password">
+							</div>
+							<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword1"
+										placeholder="Password">
+								</div>
+						<div class="form-group form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Remember Me</label>
+						</div>
+						<button type="submit" class="btn btn-primary button--large">Submit</button>
+						<p class="m-0">Or</p>
+						<button type="submit" class="btn btn-primary button--large--google"><img src="icons/google.svg" alt=""> Sign up using google</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	        <!-- Contact Modal -->
+			<div class="modal fade" id="myModalContact" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">
+									<img src="icons/close.svg" alt="">
+								</button>
+							</div>
+							<div class="modal-body text-center">
+								<h1 class="page-heading text-white">
+									Contact Us
+								</h1>
+								<form>
+									<div class="form-group">
+										<label for="exampleInputEmail1">Email address</label>
+										<input type="email" class="form-control" id="exampleInputEmail1"
+											aria-describedby="emailHelp" placeholder="Enter email">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1">Password</label>
+										<input type="password" class="form-control" id="exampleInputPassword1"
+											placeholder="Password">
+									</div>
+									<div class="form-group">
+											<label for="exampleFormControlTextarea1">Example textarea</label>
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+										  </div>
+									<button type="submit" class="btn btn-primary button--large">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/sidebar.js"></script>
+</body>
+
+</html>

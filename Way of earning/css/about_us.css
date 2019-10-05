@@ -1,0 +1,40 @@
+/**********************************
+                About
+**********************************/
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px auto auto;
+      grid-template-rows: 100px auto auto;
+      grid-template-areas: "top" "main" "footer";
+  height: 100vh;
+}
+
+.about__top {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: top;
+  padding: 30px;
+}
+
+.hamburger-top {
+  color: black;
+}
+
+.about__content {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  background-color: #586C7F;
+}
+
+.footer__bottom__content {
+  color: white;
+}
+/*# sourceMappingURL=about_us.css.map */
